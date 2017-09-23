@@ -31,7 +31,7 @@
             })
             .catch(function(err) {
                 clearInterval(timerId);
-                console.log('Ooops, something went wrong :( You can file an issue, with this error: ', err);
+                console.log('Ooops, something went wrong :( You can file an issue (https://github.com/vitkarpov/acmp-hotreload/issues/new), with this error: ', err);
             });
     }
 
