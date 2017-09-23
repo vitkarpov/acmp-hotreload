@@ -6,7 +6,16 @@
 
 ## Как установить
 
+![](docs/install_screen.png)
+
 1. Скачиваем расширение (`acmp-hotreload.zip`) на [странице последнего релиза](https://github.com/vitkarpov/acmp-hotreload/releases) и распаковываем его;
 2. Набираем `chrome://extensions` в строке браузера;
 3. Выбираем `Developer mode`;
 4. Нажимаем `Load unpacked extension...` и выбираем распакованный архив.
+
+## Не работает?
+
+1. Откройте консоль браузера (F12 под Windows, Cmd+Alt+I под MacOS);
+2. Следуйте инструкциям в консоли ↓.
+
+![](docs/troubleshooting_screen.png)
