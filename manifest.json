@@ -1,0 +1,17 @@
+{
+    "name": "ACMP Hot Reload Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Hot Reload feature for acmp.ru",
+    "browser_action": {
+        "default_title": "Hot Reload acmp.ru",
+        "default_icon": "icon16.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://acmp.ru/*"],
+            "js": ["main.js"]
+        }
+    ],
+    "homepage_url": "http://github.com/vitkarpov/"
+}
