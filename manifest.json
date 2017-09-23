@@ -4,8 +4,7 @@
     "manifest_version": 2,
     "description": "Hot Reload feature for acmp.ru",
     "browser_action": {
-        "default_title": "Hot Reload acmp.ru",
-        "default_icon": "icon16.png"
+        "default_title": "Hot Reload acmp.ru"
     },
     "content_scripts": [
         {
